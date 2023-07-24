@@ -26,4 +26,7 @@ reset.addEventListener('click', ()=>{
 
 start.addEventListener('click', ()=> {
     start.innerHTML = "Stop"
+    if(start.innerHTML === "Stop") {
+        // start.innerHTML = "Start"
+    }
 })
