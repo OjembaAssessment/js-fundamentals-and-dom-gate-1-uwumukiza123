@@ -1,4 +1,48 @@
-#myTimer {
-    color: red;
-    font-size: 64px;
+
+#myTimer{
+    display: grid;
+    /* place-items: center; */
+}
+
+.fist-div {
+    font-weight: bold;
+    /* font-size: 64px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.big-div{
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+}
+
+.main-btn{
+    height: 10rem;
+    width: 30rem;
+    background-color: rgb(49, 146, 146)
+}
+
+.button {
+    height: 3rem;
+    width: 3rem;
+    background-color: rgb(49, 146, 146);
+    cursor: pointer;
+}
+
+.btn{
+    height: 3rem;
+    width: 10rem;
+    background-color: rgb(49, 146, 146);
+    cursor: pointer;
+}
+
+.second-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 4rem;
 }
